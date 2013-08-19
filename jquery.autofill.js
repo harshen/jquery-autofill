@@ -1,7 +1,7 @@
 /*
 
  * Author - Harshen Amarnath Pandey
- * Version - 1.0.0
+ * Version - 0.8.0
  * Release - 16th August 2013
  * Copyright (c) 2013 - 2016 Harshen Pandey
 */
