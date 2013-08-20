@@ -38,6 +38,7 @@ which is to be cloned is changed OR you want that the input field should be clon
 
 Refer the demos for more clarity.
 
-### License
+## <a id="License"></a>License
+
 Copyright (c) 2013 Harshen Pandey
 Licensed under the MIT and GPLv3 license.
