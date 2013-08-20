@@ -3,7 +3,7 @@
 
 ## <a id="Introduction"></a>Introduction
 
-**Autofill** is a jQuery plugin for autofilling textboxes or textarea from another textboxes or textareas.
+**Autofill** is a jQuery plugin for autofilling textboxes or textareas from another textboxes or textareas.
 
 ## <a id="Overview"></a>Overview
 
