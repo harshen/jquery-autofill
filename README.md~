@@ -22,7 +22,7 @@ fieldId
 
   Use this option to provide the Id of the field where cloning (copying) will take place. When not specified, by default it takes 
 the id of the field as "fieldId_copy" where fieldId is the Id of the field on which you called the autofill function of the 
-plugin i.e. it is the input field required to be cloned.
+plugin i.e it is the input field required to be cloned.
 
 ```
 overrideFieldEverytime
