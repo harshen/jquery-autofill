@@ -9,12 +9,14 @@
  (function( $ ) {
 
     $.fn.autofill = function( options ) {
+        //Giving default value for fieldId option.
         $.fn.autofill.defaults.fieldId = this.attr('id') + "_copy";
         return this.each( function() {
             autofillboxes( $(this), options );
         });
     };
-
+    
+    //Definition of private function autofillboxes.
     function autofillboxes( $this , options ) {
             var opts = $.extend( {}, $.fn.autofill.defaults, options );
             var $this = $this;
@@ -59,6 +61,7 @@
             });
     };
     
+    //Giving default value for overrideFieldEverytime option. 
     $.fn.autofill.defaults = {
         overrideFieldEverytime : false
     };
