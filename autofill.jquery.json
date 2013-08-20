@@ -1,0 +1,31 @@
+{
+"name": "autofill",
+"title": "jQuery autofill",
+"description": "jQuery plugin for autofilling text input fields from another text input fields.",
+"keywords": [
+"autofill",
+"textbox",
+"textarea",
+"clone",
+"copy",
+"overwrite"
+],
+"version": "1.2.0",
+"author": {
+"name": "Harshen Pandey",
+"url" : "https://github.com/harshen/"
+},
+"licenses": [
+{
+"type": "MIT",
+"url": "https://github.com/harshen/jquery-autofill/blob/master/LICENSE-MIT"
+},
+{
+"type": "GPLv3",
+"url": "https://github.com/harshen/jquery-autofill/blob/master/LICENSE-GPL"
+}
+],
+"dependencies": {
+"jquery": ">=1.5"
+}
+}
