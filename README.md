@@ -38,6 +38,14 @@ which is to be cloned is changed OR you want that the input field should be clon
 
 Refer the demos for more clarity.
 
+### Dependencies
+
+jQuery greater than or equal to version 1.5.
+
+## <a id="Support"></a>Support
+
+Please post bug reports and other contributions (enhancements, features) to the GitHub issue tracker.
+
 ## <a id="License"></a>License
 
 Copyright (c) 2013 Harshen Pandey
