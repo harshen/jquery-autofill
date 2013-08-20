@@ -1,5 +1,5 @@
-jquery-autofill Plugin (http://plugins.jquery.com/autofill/)- jQuery plugin for autofilling text input fields from another text input fields.
-===============
+[jquery-autofill Plugin](http://plugins.jquery.com/autofill/)- jQuery plugin for autofilling text input fields from another text input fields.
+===============================
 
 ## License
 Copyright (c) 2013 Harshen Pandey
