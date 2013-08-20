@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery autofill plug-in demo</title>
+
+        <script src="../../LIB/jquery-1.10.2.js"></script>
+        <script src="../../jquery.autofill.js"></script>
+
+        <script>
+
+
+            $().ready(function() {
+                $("#fname").autofill({
+       			fieldId : "firstname",
+                	overrideFieldEverytime : false
+   		});
+		
+		$("#lname").autofill({
+       			fieldId : "lastname",
+                	overrideFieldEverytime : false
+   		});
+
+		$("#cemail").autofill({
+       			fieldId : "uemail",
+                	overrideFieldEverytime : true
+   		});
+
+            });
+        </script>
+
+    </head>
+    <body>
+
+        <h1 id="banner"><a href="http://plugins.jquery.com/autofill/">jQuery Autofill Plugin</a> Demo</h1>
+        <div id="main">
+
+            <fieldset>
+                <legend>Contact Details</legend>
+                <p>
+                    <label for="fname">Firstname</label>
+		    <textarea rows="2" cols="50" id="fname" name="fname"></textarea> 
+                <p>
+                <p>
+                    <label for="lname">Lastname</label>
+		    <textarea rows="2" cols="50" id="lname" name="lname"></textarea> 
+                <p>
+                    <label for="cemail">E-Mail</label>
+		    <textarea rows="2" cols="50" id="cemail" name="cemail"></textarea>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>User Details</legend>
+                <p>
+                    <label for="firstname">Firstname</label>
+                    <textarea rows="2" cols="50" id="firstname" name="firstname"></textarea>
+                <label>Changed first time.</label>
+                </p>
+                <p>
+                    <label for="lastname">Lastname</label>
+                    <textarea rows="2" cols="50" id="lastname" name="lastname"></textarea>
+                <label>Filled first time.</label>
+                </p>
+                <p>
+                    <label for="uemail">E-Mail</label>
+                    <textarea rows="2" cols="50" id="uemail" name="uemail"></textarea>
+                <label>Filled every time.</label>
+                </p>
+            </fieldset>
+
+        </div>
+
+
+    </body>
+</html>
