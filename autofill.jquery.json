@@ -3,6 +3,7 @@
 "title": "jQuery autofill",
 "description": "jQuery plugin for autofilling text input fields from another text input fields.",
 "keywords": [
+"jquery",
 "autofill",
 "textbox",
 "textarea",
@@ -13,8 +14,13 @@
 "version": "1.2.0",
 "author": {
 "name": "Harshen Pandey",
+"email" : "harshenpandey@gmail.com",
 "url" : "https://github.com/harshen/"
 },
+"bugs": "https://github.com/harshen/jquery-autofill/issues",
+"homepage": "https://github.com/harshen/jquery-autofill",
+"demo" : "http://harshen.github.io/jquery-autofill/",
+"docs" : "https://raw.github.com/harshen/jquery-autofill/master/DOCS/Documentation",
 "licenses": [
 {
 "type": "MIT",
