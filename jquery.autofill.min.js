@@ -1,7 +1,7 @@
 /*
 
  * Author - Harshen Pandey
- * Version - 1.2.1
+ * Version - 1.6.0
  * Release - 5th June 2017
  * Copyright (c) 2017 - 2020 Harshen Pandey
 */
