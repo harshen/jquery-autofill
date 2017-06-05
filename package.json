@@ -1,7 +1,7 @@
 {
 "name": "autofill",
 "title": "jQuery autofill",
-"description": "Light weight jQuery plugin for autofilling text input fields from another text input fields.",
+"description": "Autofill is a light weight jQuery plugin for autofilling textboxes or textareas from another textboxes or textareas.",
 "keywords": [
 "jquery",
 "autofill",
@@ -18,7 +18,7 @@
 "author": {
 "name": "Harshen Pandey",
 "email" : "harshenpandey@gmail.com",
-"url" : "https://github.com/harshen/"
+"url" : "http://harshen.github.io/"
 },
 "bugs": "https://github.com/harshen/jquery-autofill/issues",
 "homepage": "https://github.com/harshen/jquery-autofill",
@@ -27,11 +27,11 @@
 "licenses": [
 {
 "type": "MIT",
-"url": "https://github.com/harshen/jquery-autofill/blob/master/LICENSE-MIT"
+"url": "http://opensource.org/licenses/MIT"
 },
 {
 "type": "GPLv3",
-"url": "https://github.com/harshen/jquery-autofill/blob/master/LICENSE-GPL"
+"url": "http://www.gnu.org/licenses/gpl.html"
 }
 ],
 "dependencies": {

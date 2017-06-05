@@ -1,9 +1,9 @@
 /*
 
- * Author - Harshen Amarnath Pandey
- * Version - 1.2.0
- * Release - 16th August 2013
- * Copyright (c) 2013 - 2016 Harshen Pandey
+ * Author - Harshen Pandey
+ * Version - 1.2.1
+ * Release - 5th June 2017
+ * Copyright (c) 2017 - 2020 Harshen Pandey
 */
 
  (function( $ ) {
@@ -22,40 +22,15 @@
             var $this = $this;
             $this.blur( function() {
                 
-                if( options.fieldId == undefined && options.overrideFieldEverytime == undefined ) {
+                if(( options.fieldId == undefined && options.overrideFieldEverytime == undefined ) || ( options.fieldId == undefined && options.overrideFieldEverytime == false ) || ( options.fieldId != undefined && options.overrideFieldEverytime == undefined ) || ( options.fieldId != undefined && options.overrideFieldEverytime == false )) {
                     if( $( "#" + opts.fieldId ).val() == "" ) {
                         $( "#" + opts.fieldId ).val( $this.val() );
                         $this.unbind('blur');
                     }
                 }
 
-                else if( options.fieldId == undefined && options.overrideFieldEverytime == false ) {
-                    if( $( "#" + opts.fieldId ).val() == "" ) {
+                else if(( options.fieldId == undefined && options.overrideFieldEverytime == true ) || ( options.fieldId != undefined && options.overrideFieldEverytime == true )) {
                         $( "#" + opts.fieldId ).val( $this.val() );
-                        $this.unbind('blur');
-                    }
-                }
-
-                else if( options.fieldId == undefined && options.overrideFieldEverytime == true ) {
-                        $( "#" + opts.fieldId ).val( $this.val() );
-                }
-                
-                else if( options.fieldId != undefined && options.overrideFieldEverytime == undefined ) {
-                    if( $( "#" + opts.fieldId ).val() == "" ) {
-                        $( "#" + opts.fieldId ).val( $this.val() );
-                        $this.unbind('blur');
-                    }
-                }
-
-                else if( options.fieldId != undefined && options.overrideFieldEverytime == true ){
-                    $( "#" + opts.fieldId ).val( $this.val() );
-                }
-
-                else if( options.fieldId != undefined && options.overrideFieldEverytime == false ){
-                    if( $( "#" + opts.fieldId ).val() == "" ) {
-                        $( "#" + opts.fieldId ).val( $this.val() );
-                        $this.unbind('blur');
-                    }
                 }
 
             });

@@ -1,9 +1,9 @@
-[jquery-autofill Plugin](http://plugins.jquery.com/autofill/)- jQuery plugin for autofilling text input fields from another text input fields.
+[jquery-autofill Plugin](https://www.npmjs.com/package/autofill)- Light weight jQuery plugin for autofilling text input fields from another text input fields.
 ===============================
 
 ## <a id="Introduction"></a>Introduction
 
-**Autofill** is a jQuery plugin for autofilling textboxes or textareas from another textboxes or textareas.
+**Autofill** is a light weight jQuery plugin for autofilling textboxes or textareas from another textboxes or textareas.
 
 ## <a id="Overview"></a>Overview
 
@@ -36,7 +36,7 @@ which is to be cloned is changed OR you want that the input field should be clon
   
   By default it is 'false'.
 
-Refer the demos for more clarity.
+Refer the demo for more clarity.
 
 ### Dependencies
 
@@ -48,5 +48,5 @@ Please post bug reports and other contributions (enhancements, features) to the 
 
 ## <a id="License"></a>License
 
-Copyright (c) 2013 Harshen Pandey
+Copyright (c) 2017 Harshen Pandey
 Licensed under the MIT and GPLv3 license.
